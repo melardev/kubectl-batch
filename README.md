@@ -8,8 +8,8 @@ to `kubectl` binary, applied one by one to each yaml file passed as argument to 
 
 # Run
 
-Build
-`cargo build --release`
+- Build
+  `cargo build --release`
 
 - Run
   `./target/release/kubectl-batch apply -f /my/path/*/jobs.yaml`
